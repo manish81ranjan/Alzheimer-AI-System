@@ -1,0 +1,27 @@
+# version: "3.9"
+
+# services:
+#   backend:
+#     build: ./backend
+#     container_name: alzheimer-backend
+#     command: gunicorn wsgi:app --bind 0.0.0.0:5000
+#     ports:
+#       - "5000:5000"
+#     env_file:
+#       - ./backend/.env
+#     volumes:
+#       - ./backend:/app
+#     restart: always
+
+#   frontend:
+#     build: ./frontend
+#     container_name: alzheimer-frontend
+#     command: npm run dev -- --host
+#     ports:
+#       - "5173:5173"
+#     env_file:
+#       - ./frontend/.env
+#     volumes:
+#       - ./frontend:/app
+#     depends_on:
+#       - backend

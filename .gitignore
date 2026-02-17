@@ -1,0 +1,74 @@
+# =========================
+# OS & Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python / Flask Backend
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Flask uploads & generated files
+backend/uploads/
+backend/static/uploads/
+backend/static/processed/
+backend/static/heatmaps/
+backend/static/reports/
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Node / React / Vite Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite / React build
+dist/
+frontend/dist/
+
+# =========================
+# Cache & tooling
+# =========================
+.cache/
+.eslintcache
+.parcel-cache/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Misc
+# =========================
+coverage/
+*.sqlite3
+*.db
